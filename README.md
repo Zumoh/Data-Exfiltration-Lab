@@ -215,6 +215,10 @@ Open the **Applications** menu and search for **Terminal** and then select **Ter
 
 Once the Terminal is open, navigate to the directory where the file is saved. To verify you are in the correct directory, list its contents.
 
+```cd Downloads```
+
+```ls```
+
 #
 
 <img width="562" alt="Screenshot 2025-01-18 at 10 19 07 AM" src="https://github.com/user-attachments/assets/c73fc760-eade-4590-a438-6c0f7ea843aa" />
@@ -227,6 +231,8 @@ Once the Terminal is open, navigate to the directory where the file is saved. To
 
 Run the following command from the directory where the file is stored: 
 
+```md5sum "filename"```
+
 #
 
 <img width="542" alt="Screenshot 2025-01-18 at 10 23 27 AM" src="https://github.com/user-attachments/assets/9d4127a5-ada1-4a12-9cc7-7b444e2a8757" />
@@ -234,6 +240,8 @@ Run the following command from the directory where the file is stored:
 #
 
 Make sure to replace "**filename**" with the actual name of the downloaded file. For example, in this case, you would run: 
+
+```md5 download1.docx```
 
 #
 
