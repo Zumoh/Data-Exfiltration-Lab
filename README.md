@@ -215,9 +215,9 @@ Open the **Applications** menu and search for **Terminal** and then select **Ter
 
 Once the Terminal is open, navigate to the directory where the file is saved. To verify you are in the correct directory, list its contents.
 
-```cd Downloads```
+```cd Downloads``` - change to the Downloads directory.
 
-```ls```
+```ls``` - lists the content(s) of the Downloads directoy.
 
 #
 
@@ -232,6 +232,11 @@ Once the Terminal is open, navigate to the directory where the file is saved. To
 Run the following command from the directory where the file is stored: 
 
 ```md5sum "filename"```
+
+- ```md5sum``` - Uses the MD5 hashing algorithm to generate a hash value.
+- ```"filename"`` -     The name of the file for which you want to obtain the hash value.
+
+The md5sum command calculates the MD5 hash of the specified file, which is a unique identifier (checksum) for the contents of the file. It can be used to verify the integrity of files, ensuring they haven’t been altered.
 
 #
 
