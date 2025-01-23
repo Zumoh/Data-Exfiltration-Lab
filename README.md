@@ -37,7 +37,7 @@ This investigation examines a PCAP file to identify the secret agent, their acti
    - Recognizing signs of data exfiltration through email traffic or other network protocols.
       - Being able to identify when data is being illicitly sent outside the organization, whether through email or other methods, is key for preventing breaches and securing sensitive information.
 
-### Tools Used
+### 🛠️ Tools Used
 
 - **Wireshark**: For analyzing the pcap file and capturing network traffic.
 - **Base64** Decoder: For decoding Base64 encoded credentials.
